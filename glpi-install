@@ -18,3 +18,4 @@ EXIT;
 sudo apt update && apt install -y software-properties-common 
 sudo add-apt-repository ppa:ondrej/php 
 sudo apt update and then try 
+sudo apt-get install php-xml
