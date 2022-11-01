@@ -14,3 +14,5 @@ CREATE USER 'glpi'@'localhost' IDENTIFIED BY 'StrongDBPassword';
 GRANT ALL PRIVILEGES ON glpi.* TO 'glpi'@'localhost';
 FLUSH PRIVILEGES;
 EXIT;
+
+sudo apt-get -y install php php-{curl,gd,imagick,intl,apcu,recode,memcache,imap,mysql,cas,ldap,tidy,pear,xmlrpc,pspell,gettext,mbstring,json,iconv,xml,gd,xsl}
