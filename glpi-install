@@ -15,4 +15,6 @@ GRANT ALL PRIVILEGES ON glpi.* TO 'glpi'@'localhost';
 FLUSH PRIVILEGES;
 EXIT;
 
-sudo apt-get -y install php php-{curl,gd,imagick,intl,apcu,recode,memcache,imap,mysql,cas,ldap,tidy,pear,xmlrpc,pspell,gettext,mbstring,json,php8.1-xml,xml,gd,php8.1-common}
+sudo apt update && apt install -y software-properties-common 
+sudo add-apt-repository ppa:ondrej/php 
+sudo apt update and then try 
